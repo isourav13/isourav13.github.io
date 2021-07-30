@@ -617,16 +617,29 @@
 
           <form action="https://formspree.io/f/xnqlgprz" method="POST">
 
-				<div class="form-field animate-this">
-					<input type="email" name="_replyto">
-			  	</div>
+  				<div class="form-field animate-this">
+  					<input type="email" name="_replyto" placeholder="e-mail">
+  			  	</div>
 
-				<div class="form-field animate-this">
-					<textarea   name="body"></textarea>
-				</div>
+  				<div class="form-field animate-this">
+  					<textarea   name="body" placeholder="write you message here." ></textarea>
+  				</div>
 
-				<input type="submit" value="Send">
-			</form>
+
+
+  				<div class="form-field animate-this">
+  					<input type="submit" class="submitform" value="Send">
+  					<div id="submit-loader">
+  					   <div class="text-loader">Sending...</div>
+  							<div class="s-loader">
+  									 <div class="bounce1"></div>
+  									 <div class="bounce2"></div>
+  									 <div class="bounce3"></div>
+  							   </div>
+  						   </div>
+  				 </div>
+
+  			</form>
 
             <!-- contact-warning -->
             <div id="message-warning"></div>
