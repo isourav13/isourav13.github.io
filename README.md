@@ -1,6 +1,6 @@
 # Personal-Website
 
-https://isourav13.github.io/Hola/
+URL: `https://isourav13.github.io/Hola/`
 
 ### This application has been made using:
 
